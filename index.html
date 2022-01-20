@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOSOVË</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script>
+            //alert
+window.alert("Kjo ueb - faqe eshte e krijuar per shtetin e Kosovës!");
+
+        </script>
+</head>
+<body>
+    <!-- koka e faqes -->
+   <header>
+       <img src="photo/logo.png" class="logo">
+       <nav  >
+           <a href="https://www.facebook.com/donjeta.morina.3517" target="_blank" > 
+             <ion-icon name="logo-facebook"  class="social-media"></ion-icon></a>
+             <a href="https://www.instagram.com/donjjetamorina/" target="_BLANK" >
+             <ion-icon name="logo-instagram" class="social-media" ></ion-icon></a>
+             <a href="https://mail.google.com/donjetam33@gmail.com"  target="_blank"> 
+             <ion-icon name="logo-google"  class="social-media"></ion-icon></a>
+             <a href="https://www.linkedin.com/in/donjeta-morina-497b54181/"  target="_blank">
+             <ion-icon name="logo-linkedin" class="social-media" ></ion-icon></a>
+           
+       </nav>
+      <a href="index.html"> <button  class="mail"> <ion-icon name="mail-unread-outline" style="margin-top: 3px; padding-left: 3px;"></ion-icon> Kontakto!</button>
+   </header></a>
+<!-- pjesa e pare tek ballina -->
+
+   <div class="first" id="first"  >
+       <!-- ketu fotot do te nderrohen  automatikisht me ane te js -->
+       <div class="first-photo" >
+          <a href="https://www.rks-gov.net/" target="_blank" > <img src="" class="photo2" id="image"> </a>
+       </div>
+
+       
+
+       <div class="first-text">
+           <h1> Historia e KOSOVES </h1>
+           <p>Kosova (historikisht Dardania, zyrtarisht Republika e Kosovës)
+                është një shtet i pavarur në Evropën Juglindore. Shtrihet 
+                në qendër të Siujdhesës Ballkanike dhe kufizohet në veri 
+                dhe në lindje me Serbinë, në juglindje me Maqedoninë e Veriut, 
+                në jugperëndim me Shqipërinë dhe në perëndim me Malin e Zi.
+                 Ka një sipërfaqe prej 10.908 km² dhe popullsi prej 1.9 
+                 milion banorësh. Shumica dërrmuese e popullsisë janë shqiptarë,
+                  ndërsa komunitetet tjera përfshijnë serbët, turqit, boshnjakët,
+                   romët, ashkalinjtë, egjiptasit dhe goranët
+                   <span id="dots">...</span></p>
+                   <p  id="readmore"> 
+                       <!-- kjo pjese e tekstit do te shfaqet pasi te shtypet butoni read more  -->
+                       <br>
+                 Me shpalljen e
+                    pavarësisë më 17 shkurt 2008, Republika e Kosovës u bë
+                     shteti më i ri në botë. Është vatër e stabilitetit në rajon,
+                      si dhe synon anëtarësimin në NATO, Organizata e Kombeve
+                       të Bashkuara dhe në Bashkimin Evropian. Kosova është vatër 
+                       e vazhdimësisë së qytetërimit të lashtë iliro-dardan dhe 
+                       e zhvillimit të gjuhës shqipe si pasardhëse e vetme e gjuhëve ilire.
+                        Në shek. IV p. K. u themelua Mbretëria Dardane, ndërsa 
+                        më vonë pasuria nëntokësore e Kosovës luajti rol të rëndësishëm
+                         në ekonominë e Perandorisë Romake, Perandorisë Osmane dhe 
+                         ish-Jugosllavisë. Megjithatë, politikat antishqiptare, luftërat,
+                          statusi politik dhe keqadministrimi ndërkombëtar e i politikës 
+                          vendase në vitet e fundit kanë bërë që Kosova të radhitet si
+                           vendi më i varfër në Evropë dhe ndër më të varfrit në botë.
+                           
+                              </p>
+                <br>
+                <button onclick="readMore()" id="btn" > Lexo me shume</button>
+       </div>
+   </div>
+
+   
+
+ 
+
+<!-- pjesa e galleris -->
+
+<header class="filter">
+   
+
+    <div class="filteri">
+        <a href="#" class="btn active" data-filter="kosova">Kosova</a>
+        <a href="#" class="btn" data-filter="prishtia">Prishtia</a>
+        <a href="#" class="btn" data-filter="prizren">Prizren</a>
+        <a href="#" class="btn" data-filter="mitrovica">Mitrovica</a>
+        <a href="#" class="btn" data-filter="gjakova">Gjakova</a>
+        <a href="#" class="btn" data-filter="peja">Peja</a>
+        <a href="#" class="btn" data-filter="ferizaj">Ferizaj</a>
+        <a href="#" class="btn" data-filter="gjilan">Gjilan</a>
+
+       
+    </div>
+
+</div>
+</header>
+
+   <main>
+    <div class="allphotos">
+        <section class="photos" id="photo">
+ 
+            
+ 
+            <div class="photo1 prishtia">
+                <img src="photo/prishtina1.jpg" class="dphoto" alt="photo">
+               
+            </div>
+ 
+            <div class="photo1 prishtia">
+                <img src="photo/pris.jpg"  class="dphoto"alt="photo">
+               
+            </div>
+ 
+            <div class="photo1 prizren">
+                <img src="photo/prizreni2.jpg" class="dphoto" alt="photo">
+                
+            </div>
+          
+ 
+            <div class="photo1 prizren">
+                <img src="photo/prizreni2.jfif" class="dphoto" alt="photo">
+                
+            </div>
+ 
+            <div class="photo1 mitrovica">
+             <img src="photo/mitrovica1.jpg" class="dphoto" alt="photo">
+            
+         </div>
+ 
+         <div class="photo1 mitrovica">
+             <img src="photo/mitrovica2.jpg"  class="dphoto"alt="photo">
+            
+         </div>
+ 
+         <div class="photo1 gjakova">
+             <img src="photo/gjakova1.jpg" class="dphoto" alt="photo">
+             
+         </div>
+       
+ 
+         <div class="photo1 gjakova">
+             <img src="photo/gjakova2.jfif" class="dphoto" alt="photo">
+             
+         </div>
+ 
+         <div class="photo1 peja">
+          <img src="photo/peja1.jpg" class="dphoto" alt="photo">
+         
+      </div>
+ 
+      <div class="photo1 peja">
+       <img src="photo/peja2.jfif" class="dphoto" alt="photo">
+       
+   </div>
+ 
+   <div class="photo1 ferizaj">
+    <img src="photo/ferizaj1.jpg" class="dphoto" alt="photo">
+   
+ </div>
+    
+ 
+      <div class="photo1 gjilan">
+          <img src="photo/gilani.jfif" class="dphoto" alt="photo">
+          
+      </div>
+      <div class="photo1 peja">
+        <img src="photo/peja3.jpg" class="dphoto" alt="photo">
+        
+    </div>
+  
+    <div class="photo1 ferizaj">
+     <img src="photo/ferizaji2.jpg" class="dphoto" alt="photo">
+    
+  </div>
+     
+  
+       <div class="photo1 gjilan">
+           <img src="photo/gilani2.jfif" class="dphoto" alt="photo">
+           
+       </div>
+    
+ 
+        </section>
+    </div>
+ </main>
+
+<div class="time">
+    <button  onclick="DataVitiMuaji()" id="tanipertani">
+        Shfaqe daten!
+        </button> 
+
+</div>
+ 
+
+
+ <!-- pjesa fundit -->
+ <div class="end">
+    <p> <b> Copyright &copy;  2022.Donjeta Morina </b> </p> 
+</div>
+
+
+ <!-- java script  -->
+<script  src="js.js"></script>
+
+
+
+
+
+
+</body>
+</html>
